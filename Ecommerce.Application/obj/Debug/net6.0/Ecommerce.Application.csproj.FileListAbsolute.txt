@@ -1,0 +1,15 @@
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Application.deps.json
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Application.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\bin\Debug\net6.0\ref\Ecommerce.Application.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Application.pdb
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Domain.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Domain.pdb
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.csproj.AssemblyReference.cache
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.AssemblyInfoInputs.cache
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.AssemblyInfo.cs
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.csproj.CopyComplete
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\ref\Ecommerce.Application.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.pdb

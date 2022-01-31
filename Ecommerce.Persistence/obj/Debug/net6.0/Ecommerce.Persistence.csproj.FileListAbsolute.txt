@@ -1,0 +1,17 @@
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Persistence.deps.json
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Persistence.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\ref\Ecommerce.Persistence.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Persistence.pdb
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Application.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Domain.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Application.pdb
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\bin\Debug\net6.0\Ecommerce.Domain.pdb
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.csproj.AssemblyReference.cache
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.AssemblyInfoInputs.cache
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.AssemblyInfo.cs
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.csproj.CopyComplete
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\ref\Ecommerce.Persistence.dll
+C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Persistence\obj\Debug\net6.0\Ecommerce.Persistence.pdb
