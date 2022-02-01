@@ -2375,19 +2375,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jarek\\.nuget\\packages\\": {}
+    "C:\\Users\\przyb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Api\\Ecommerce.Api.csproj",
+      "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj",
       "projectName": "Ecommerce.Api",
-      "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Api\\Ecommerce.Api.csproj",
-      "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Api\\obj\\",
+      "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj",
+      "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2401,11 +2401,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj": {
-              "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj"
+            "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+              "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj"
             },
-            "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj": {
-              "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj"
+            "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj": {
+              "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj"
             }
           }
         }

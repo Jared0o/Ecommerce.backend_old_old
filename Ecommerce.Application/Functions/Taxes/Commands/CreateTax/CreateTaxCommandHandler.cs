@@ -19,7 +19,7 @@ namespace Ecommerce.Application.Functions.Taxes.Commands.CreateTax
         public async Task<CreateTaxCommandResponse> Handle(CreateTaxCommand request, CancellationToken cancellationToken)
         {
             var validator = new CreateTaxCommandValidator();
-            var validatorResult = await validator.ValidateAsync(request);
+            var validatorResult = await validator.ValidateAsync(request); 
 
             if (!validatorResult.IsValid)
                 throw new ValidateException(validatorResult);

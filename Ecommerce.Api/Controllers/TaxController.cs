@@ -26,7 +26,7 @@ namespace Ecommerce.Api.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{Id}")]
         public async Task<ActionResult<GetTaxByIdQueryResponse>> GetTaxAsync([FromRoute] GetTaxByIdQuery request)
         {
             var response = await _mediator.Send(request);
@@ -35,17 +35,17 @@ namespace Ecommerce.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CreateTaxCommandResponse>> CreateTax(CreateTaxCommand request)
+        public async Task<ActionResult<CreateTaxCommandResponse>> CreateTaxAsync(CreateTaxCommand request)
         {
-            var response = _mediator.Send(request);
+            var response = await _mediator.Send(request);
 
             return Ok(response);
         }
 
         [HttpPatch]
-        public async Task<ActionResult<UpdateTaxCommandResponse>> UpdateTax(UpdateTaxCommand request)
+        public async Task<ActionResult<UpdateTaxCommandResponse>> UpdateTaxAsync(UpdateTaxCommand request)
         {
-            var response = _mediator.Send(request);
+            var response = await _mediator.Send(request);
 
             return Ok(response);
         }

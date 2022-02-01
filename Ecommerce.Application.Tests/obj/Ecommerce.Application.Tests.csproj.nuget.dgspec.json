@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj": {}
+    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj": {
+    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj",
         "projectName": "Ecommerce.Application.Tests",
-        "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj",
-        "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application.Tests\\obj\\",
+        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application.Tests\\Ecommerce.Application.Tests.csproj",
+        "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj"
+              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj"
               },
-              "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
               }
             }
           }
@@ -99,17 +99,17 @@
         }
       }
     },
-    "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj",
         "projectName": "Ecommerce.Application",
-        "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\Ecommerce.Application.csproj",
-        "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Application\\obj\\",
+        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj",
+        "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,8 +123,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
               }
             }
           }
@@ -183,17 +183,17 @@
         }
       }
     },
-    "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "projectName": "Ecommerce.Domain",
-        "projectPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
-        "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarek\\source\\repos\\Ecommerce\\Ecommerce.Domain\\obj\\",
+        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

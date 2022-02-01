@@ -13,6 +13,7 @@ namespace Ecommerce.Persistence
             service.AddScoped(typeof(IAsyncRepository<>), typeof(BaseRepository<>));
             service.AddScoped<ICategoryRepository, CategoryRepository>();
             service.AddScoped<ITaxRepository, TaxRepository>();
+            service.AddScoped<IProductRepository, ProductRepository>(); 
 
             service.AddDbContext<EcommerceContext>(opt =>
             {

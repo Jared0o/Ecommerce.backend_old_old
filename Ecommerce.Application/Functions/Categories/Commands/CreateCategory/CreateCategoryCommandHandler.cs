@@ -19,12 +19,13 @@ namespace Ecommerce.Application.Functions.Categories.Commands.CreateCategory
         public async Task<CreateCategoryCommandResponse> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
         {
             var validator = new CreateCategoryCommandValidator();
-            var validatorResult = validator.Validate(request);
+            var validatorResult = await validator.ValidateAsync(request);
 
             if (!validatorResult.IsValid)
                 throw new ValidateException(validatorResult);
 
             var category = _mapper.Map<Category>(request);
+
             category = await _categoryRepository.AddAsync(category);
 
             var response = _mapper.Map<CreateCategoryCommandResponse>(category);

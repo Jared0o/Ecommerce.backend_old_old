@@ -6,6 +6,7 @@ namespace Ecommerce.Domain.Entities
     {
         public string Name { get; set; }
         public string Slug { get; set; }
+        public int TaxId { get; set; }
         public Tax Tax { get; set; }
         public float Price { get; set; }
         public string Description { get; set; }
@@ -13,7 +14,6 @@ namespace Ecommerce.Domain.Entities
         public string Brand { get; set; }
         public bool isDisable { get; set; }
 
-        //Listy
-        public IEnumerable<ProductCategory> ProductCategories  { get; set; }
+        public IEnumerable<ProductCategory> Categories  { get; set; }
     }
 }
