@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace Ecommerce.Application.Functions.Taxes.Commands.UpdateTax
 {
-    public class UpdateTaxCommandValidator : AbstractValidator<UpdateTaxCommand>
+    internal class UpdateTaxCommandValidator : AbstractValidator<UpdateTaxCommand>
     {
         private readonly ITaxRepository _taxRepository;
 
@@ -31,7 +31,7 @@ namespace Ecommerce.Application.Functions.Taxes.Commands.UpdateTax
 
         private async Task<bool> CheckExistAsync(int id)
         {
-            var tax = _taxRepository.GetByIdAsync(id);
+            var tax = await _taxRepository.GetByIdAsync(id);
             if (tax == null)
                 return false;
 

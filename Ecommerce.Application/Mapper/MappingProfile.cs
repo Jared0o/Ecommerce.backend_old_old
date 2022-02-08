@@ -4,6 +4,7 @@ using Ecommerce.Application.Functions.Categories.Commands.UpdateCategory;
 using Ecommerce.Application.Functions.Categories.Queries.GetCategoryById;
 using Ecommerce.Application.Functions.Categories.Queries.GetCategoryList;
 using Ecommerce.Application.Functions.Products.Commands;
+using Ecommerce.Application.Functions.Products.Commands.UpdateProduct;
 using Ecommerce.Application.Functions.Taxes.Commands.CreateTax;
 using Ecommerce.Application.Functions.Taxes.Commands.UpdateTax;
 using Ecommerce.Application.Functions.Taxes.Queries.GetTaxById;
@@ -30,6 +31,8 @@ namespace Ecommerce.Application.Mapper
             CreateMap<Tax, GetTaxListQueryResponse>();
             CreateMap<CreateProductCommand, Product>();
             CreateMap<Product, CreateProductCommandResponse>();
+            CreateMap<Product, UpdateProductCommandResponse>();
+            CreateMap<UpdateProductCommand, Product>();
         }
     }
 }

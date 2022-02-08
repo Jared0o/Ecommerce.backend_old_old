@@ -27,11 +27,9 @@ namespace Ecommerce.Application.Functions.Products.Commands
             if (!validatorResult.IsValid)
                 throw new ValidateException(validatorResult);
 
-            //var tax = await _taxRepository.GetByIdAsync(request.TaxId);
-
             var product = _mapper.Map<Product>(request);
             product.Slug = product.Name.Trim().Replace(" ", "-").ToLower();
-            //product.Tax = tax;
+
             product = await _productRepository.AddAsync(product);
 
             var response = _mapper.Map<CreateProductCommandResponse>(product);
