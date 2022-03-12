@@ -1,8 +1,9 @@
-﻿using MediatR;
+﻿using Ecommerce.Application.Functions.Taxes.Responses;
+using MediatR;
 
 namespace Ecommerce.Application.Functions.Taxes.Commands.UpdateTax
 {
-    public class UpdateTaxCommand : IRequest<UpdateTaxCommandResponse>
+    public class UpdateTaxCommand : IRequest<TaxBaseDto>
     {
         public int Id { get; set; }
         public string Name { get; set; }

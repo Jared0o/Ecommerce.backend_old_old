@@ -1,10 +1,9 @@
-﻿
-
+﻿using Ecommerce.Application.Functions.Products.Responses;
 using MediatR;
 
 namespace Ecommerce.Application.Functions.Products.Commands.UpdateProduct
 {
-    public class UpdateProductCommand : IRequest<UpdateProductCommandResponse>
+    public class UpdateProductCommand : IRequest<ProductBaseDto>
     {
         public int Id { get; set; }
         public string Name { get; set; }

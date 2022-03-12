@@ -2,7 +2,7 @@
 
 namespace Ecommerce.Application.Interfaces
 {
-    public interface ICategoryRepository : IAsyncRepository<Category>
+    public interface ICategoryRepository : IBaseRepository<Category>
     {
     }
 }

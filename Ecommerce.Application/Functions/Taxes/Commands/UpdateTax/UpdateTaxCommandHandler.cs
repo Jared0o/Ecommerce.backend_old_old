@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using Ecommerce.Application.Exceptions;
+using Ecommerce.Application.Functions.Taxes.Responses;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Domain.Entities;
 using MediatR;
 
 namespace Ecommerce.Application.Functions.Taxes.Commands.UpdateTax
 {
-    internal class UpdateTaxCommandHandler : IRequestHandler<UpdateTaxCommand, UpdateTaxCommandResponse>
+    internal class UpdateTaxCommandHandler : IRequestHandler<UpdateTaxCommand, TaxBaseDto>
     {
         private readonly IMapper _mapper;
         private readonly ITaxRepository _taxRepository;
@@ -16,7 +17,7 @@ namespace Ecommerce.Application.Functions.Taxes.Commands.UpdateTax
             _mapper = mapper;
             _taxRepository = taxRepository;
         }
-        public async Task<UpdateTaxCommandResponse> Handle(UpdateTaxCommand request, CancellationToken cancellationToken)
+        public async Task<TaxBaseDto> Handle(UpdateTaxCommand request, CancellationToken cancellationToken)
         {
 
             var validator = new UpdateTaxCommandValidator(_taxRepository);
@@ -28,7 +29,7 @@ namespace Ecommerce.Application.Functions.Taxes.Commands.UpdateTax
             var tax = _mapper.Map<Tax>(request);
             tax = await _taxRepository.UpdateAsync(tax);
 
-            var response = _mapper.Map<UpdateTaxCommandResponse>(tax);
+            var response = _mapper.Map<TaxBaseDto>(tax);
 
             return response;
         }

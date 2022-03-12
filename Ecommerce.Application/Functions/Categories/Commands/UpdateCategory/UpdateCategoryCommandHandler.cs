@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using Ecommerce.Application.Exceptions;
+using Ecommerce.Application.Functions.Categories.Responses;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Domain.Entities;
 using MediatR;
 
 namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
 {
-    public class UpdateCategoryCommandHandler : IRequestHandler<UpdateCategoryCommand, UpdateCategoryCommandResponse>
+    public class UpdateCategoryCommandHandler : IRequestHandler<UpdateCategoryCommand, CategoryBaseDto>
     {
         private readonly IMapper _mapper;
         private readonly ICategoryRepository _categoryRepository;
@@ -16,7 +17,7 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
             _mapper = mapper;
             _categoryRepository = categoryRepository;
         }
-        public async Task<UpdateCategoryCommandResponse> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
+        public async Task<CategoryBaseDto> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
             
 
@@ -30,7 +31,7 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
 
             category = await _categoryRepository.UpdateAsync(category);
 
-            var response = _mapper.Map<UpdateCategoryCommandResponse>(category);
+            var response = _mapper.Map<CategoryBaseDto>(category);
 
             return response;
         }

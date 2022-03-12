@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {}
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "projectName": "Ecommerce.Domain",
-        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\obj\\",
+        "outputPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

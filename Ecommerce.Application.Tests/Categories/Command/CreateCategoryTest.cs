@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ecommerce.Application.Functions.Categories.Commands.CreateCategory;
+using Ecommerce.Application.Functions.Categories.Responses;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Application.Mapper;
 using Ecommerce.Application.Tests.Mocks;
@@ -38,7 +39,7 @@ namespace Ecommerce.Application.Tests.Categories.Command
 
             var allCategories = await _mockCategoryRepository.Object.GetAllAsync();
 
-            response.ShouldBeOfType<CreateCategoryCommandResponse>();
+            response.ShouldBeOfType<CategoryBaseDto>();
             allCategories.Count.ShouldBe(categoryCount + 1);
             response.Id.ShouldBe(categoryCount+1);
 

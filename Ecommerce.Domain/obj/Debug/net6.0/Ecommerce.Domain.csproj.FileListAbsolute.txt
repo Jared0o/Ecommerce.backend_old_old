@@ -12,9 +12,7 @@ C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\ref\Ecom
 C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.pdb
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\bin\Debug\net6.0\Ecommerce.Domain.deps.json
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\bin\Debug\net6.0\Ecommerce.Domain.dll
-C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\bin\Debug\net6.0\ref\Ecommerce.Domain.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\bin\Debug\net6.0\Ecommerce.Domain.pdb
-C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.csproj.AssemblyReference.cache
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.AssemblyInfoInputs.cache
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.AssemblyInfo.cs
@@ -22,3 +20,5 @@ C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\ref\Ecommerce.Domain.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.pdb
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Domain\obj\Debug\net6.0\refint\Ecommerce.Domain.dll

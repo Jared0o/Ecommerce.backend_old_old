@@ -1,8 +1,9 @@
-﻿using MediatR;
+﻿using Ecommerce.Application.Functions.Categories.Responses;
+using MediatR;
 
 namespace Ecommerce.Application.Functions.Categories.Commands.CreateCategory
 {
-    public class CreateCategoryCommand : IRequest<CreateCategoryCommandResponse>
+    public class CreateCategoryCommand : IRequest<CategoryBaseDto>
     {
         public string Name { get; set; }
         public string? Description { get; set; }

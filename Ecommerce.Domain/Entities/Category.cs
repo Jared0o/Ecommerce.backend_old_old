@@ -6,7 +6,10 @@ namespace Ecommerce.Domain.Entities
     {
         public string Name { get; set; }
         public string? Description { get; set; }
-        public bool isDisable { get; set; }
+        public bool IsActive { get; set; }
+
+        public virtual IEnumerable<Product> Products { get; set; }
+        public virtual IEnumerable<CategoryInCategory> CategoriesChilds { get; set; }
 
     }
 }

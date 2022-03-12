@@ -19,8 +19,4 @@
     <ProjectReference Include="..\Ecommerce.Domain\Ecommerce.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Functions\Products\Queries\" />
-  </ItemGroup>
-
 </Project>

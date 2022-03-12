@@ -2,6 +2,7 @@
 using Ecommerce.Domain.Entities;
 using Moq;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Ecommerce.Application.Tests.Mocks
 {
@@ -17,19 +18,26 @@ namespace Ecommerce.Application.Tests.Mocks
             mockCategoryRepository.Setup(repo => repo.AddAsync(It.IsAny<Category>())).ReturnsAsync(
                 (Category category) =>
                 {
-                    categories.Add(category);
-                    return category;
-                });
-
-            mockCategoryRepository.Setup(repo => repo.AddAsync(It.IsAny<Category>())).ReturnsAsync(
-                (Category category) =>
-                {
                     category.Id = categories.Count + 1;
                     categories.Add(category);
                     return category;
                 });
 
             return mockCategoryRepository;
+
+            mockCategoryRepository.Setup(repo => repo.GetByIdAsync(It.IsAny<int>())).ReturnsAsync((int id) =>
+            {
+                return categories.SingleOrDefault(x => x.Id == id);
+            });
+
+            mockCategoryRepository.Setup(repo => repo.UpdateAsync(It.IsAny<Category>())).ReturnsAsync((Category category) =>
+            {
+                var index = categories.FindIndex(x => x.Id == category.Id);
+                categories[index] = category;
+
+                return categories.SingleOrDefault(x => x.Id == category.Id);
+            });
+
         }
 
         private static List<Category> GetCategories()

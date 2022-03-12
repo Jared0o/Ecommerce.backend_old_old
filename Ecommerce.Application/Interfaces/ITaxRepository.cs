@@ -2,7 +2,7 @@
 
 namespace Ecommerce.Application.Interfaces
 {
-    public interface ITaxRepository : IAsyncRepository<Tax>
+    public interface ITaxRepository : IBaseRepository<Tax>
     {
     }
 }

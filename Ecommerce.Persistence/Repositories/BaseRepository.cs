@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Persistence.Repositories
 {
-    public class BaseRepository<T> : IAsyncRepository<T> where T : AuditableEntity
+    public class BaseRepository<T> : IBaseRepository<T> where T : AuditableEntity
     {
         private readonly EcommerceContext _context;
 

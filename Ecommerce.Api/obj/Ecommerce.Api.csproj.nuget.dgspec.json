@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj": {}
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj": {
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj",
         "projectName": "Ecommerce.Api",
-        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj",
+        "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\Ecommerce.Api.csproj",
         "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\obj\\",
+        "outputPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj"
+              "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj"
               },
-              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj": {
-                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj"
+              "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj": {
+                "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj"
               }
             }
           }
@@ -76,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj",
         "projectName": "Ecommerce.Application",
-        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj",
+        "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj",
         "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\obj\\",
+        "outputPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +104,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
               }
             }
           }
@@ -160,18 +160,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "projectName": "Ecommerce.Domain",
-        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\obj\\",
+        "outputPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -199,6 +199,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -214,18 +220,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj": {
+    "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj",
         "projectName": "Ecommerce.Persistence",
-        "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj",
+        "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\Ecommerce.Persistence.csproj",
         "packagesPath": "C:\\Users\\przyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\przyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -242,11 +248,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj"
+              "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Application\\Ecommerce.Application.csproj"
               },
-              "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\przyb\\Source\\Repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\przyb\\source\\repos\\Jared0o\\Ecommerce.backend\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
               }
             }
           }
@@ -261,6 +267,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -268,6 +286,14 @@
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
             }
           },
           "imports": [
@@ -285,7 +311,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

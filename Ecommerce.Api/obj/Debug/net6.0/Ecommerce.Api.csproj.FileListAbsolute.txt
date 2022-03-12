@@ -77,7 +77,6 @@ C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\ne
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Ecommerce.Api.deps.json
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Ecommerce.Api.runtimeconfig.json
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Ecommerce.Api.dll
-C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\ref\Ecommerce.Api.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Ecommerce.Api.pdb
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -144,3 +143,11 @@ C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\obj\Debug\ne
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\obj\Debug\net6.0\ref\Ecommerce.Api.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\obj\Debug\net6.0\Ecommerce.Api.pdb
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Api\obj\Debug\net6.0\Ecommerce.Api.genruntimeconfig.cache
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\obj\Debug\net6.0\refint\Ecommerce.Api.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

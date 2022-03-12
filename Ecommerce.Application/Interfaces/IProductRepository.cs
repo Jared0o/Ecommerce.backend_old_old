@@ -2,7 +2,7 @@
 
 namespace Ecommerce.Application.Interfaces
 {
-    public interface IProductRepository : IAsyncRepository<Product>
+    public interface IProductRepository : IBaseRepository<Product>
     {
     }
 }

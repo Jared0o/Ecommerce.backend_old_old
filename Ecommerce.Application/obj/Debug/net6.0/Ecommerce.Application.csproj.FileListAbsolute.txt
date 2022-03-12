@@ -15,7 +15,6 @@ C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\ref
 C:\Users\jarek\source\repos\Ecommerce\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.pdb
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Application.deps.json
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Application.dll
-C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\bin\Debug\net6.0\ref\Ecommerce.Application.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Application.pdb
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Domain.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\bin\Debug\net6.0\Ecommerce.Domain.pdb
@@ -28,3 +27,4 @@ C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\obj\
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\obj\Debug\net6.0\ref\Ecommerce.Application.dll
 C:\Users\przyb\Source\Repos\Jared0o\Ecommerce.backend\Ecommerce.Application\obj\Debug\net6.0\Ecommerce.Application.pdb
+C:\Users\przyb\source\repos\Jared0o\Ecommerce.backend\Ecommerce.Application\obj\Debug\net6.0\refint\Ecommerce.Application.dll

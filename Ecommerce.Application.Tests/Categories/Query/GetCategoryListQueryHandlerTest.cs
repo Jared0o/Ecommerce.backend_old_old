@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ecommerce.Application.Functions.Categories.Queries.GetCategoryList;
+using Ecommerce.Application.Functions.Categories.Responses;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.Application.Mapper;
 using Ecommerce.Application.Tests.Mocks;
@@ -35,7 +36,7 @@ namespace Ecommerce.Application.Tests.Categories.Query
             var handler = new GetCategoryListQueryHandler(_mapper, _mockCategoryRepository.Object);
             var result = await handler.Handle(new GetCategoryListQuery(), CancellationToken.None);
 
-            result.ShouldBeOfType<List<GetCategoryListQueryResponse>>();
+            result.ShouldBeOfType<List<CategoryBaseDto>>();
             
             result.Count.ShouldBe(5);
         }

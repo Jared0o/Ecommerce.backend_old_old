@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
 using Ecommerce.Application.Exceptions;
+using Ecommerce.Application.Functions.Categories.Responses;
 using Ecommerce.Application.Interfaces;
 using MediatR;
 
 namespace Ecommerce.Application.Functions.Categories.Queries.GetCategoryById
 {
-    public class GetCategoryByIdQueryHandler : IRequestHandler<GetCategoryByIdQuery, GetCategoryByIdQueryResponse>
+    public class GetCategoryByIdQueryHandler : IRequestHandler<GetCategoryByIdQuery, CategoryBaseDto>
     {
         private readonly IMapper _mapper;
         private readonly ICategoryRepository _categoryRepository;
@@ -15,7 +16,7 @@ namespace Ecommerce.Application.Functions.Categories.Queries.GetCategoryById
             _mapper = mapper;
             _categoryRepository = categoryRepository;
         }
-        public async Task<GetCategoryByIdQueryResponse> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
+        public async Task<CategoryBaseDto> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
         {
             var validator = new GetCategoryByIdQueryValidator();
             var validatorResult = await validator.ValidateAsync(request, cancellationToken);
@@ -28,7 +29,7 @@ namespace Ecommerce.Application.Functions.Categories.Queries.GetCategoryById
             if (category == null)
                 throw new NotFindException($"Not Find category with id {request.Id}");
 
-            var response = _mapper.Map<GetCategoryByIdQueryResponse>(category);
+            var response = _mapper.Map<CategoryBaseDto>(category);
 
             return response;
         }
