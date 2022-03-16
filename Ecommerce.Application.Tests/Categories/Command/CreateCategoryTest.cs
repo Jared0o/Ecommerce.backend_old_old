@@ -29,7 +29,8 @@ namespace Ecommerce.Application.Tests.Categories.Command
         }
 
         [Fact]
-        public async Task HandleValidCategoryAddedToCategoriesRepo()
+        [Trait("Category", "Category")]
+        public async Task Create_Category_All_Data_Is_Valid()
         {
             var handler = new CreateCategoryCommandHandler(_mockCategoryRepository.Object, _mapper);
 
@@ -42,7 +43,7 @@ namespace Ecommerce.Application.Tests.Categories.Command
             response.ShouldBeOfType<CategoryBaseDto>();
             allCategories.Count.ShouldBe(categoryCount + 1);
             response.Id.ShouldBe(categoryCount+1);
-
+            response.IsActive.ShouldBeFalse();
         }
     }
 }

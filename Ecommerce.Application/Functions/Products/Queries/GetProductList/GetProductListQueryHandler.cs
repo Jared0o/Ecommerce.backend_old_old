@@ -5,7 +5,7 @@ using MediatR;
 
 namespace Ecommerce.Application.Functions.Products.Queries.GetProductList
 {
-    internal class GetProductListQueryHandler : IRequestHandler<GetProductListQuery, IReadOnlyList<ProductBaseDto>>
+    public class GetProductListQueryHandler : IRequestHandler<GetProductListQuery, IReadOnlyList<ProductBaseDto>>
     {
         private readonly IMapper _mapper;
         private readonly IProductRepository _productRepository;

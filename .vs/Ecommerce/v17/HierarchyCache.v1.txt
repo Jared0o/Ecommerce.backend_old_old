@@ -1,0 +1,717 @@
+﻿++Rozwiązanie „Ecommerce” ‎ (5 z 5 projektów)
+i:{00000000-0000-0000-0000-000000000000}:Ecommerce.sln
+++tests
+i:{00000000-0000-0000-0000-000000000000}:tests
+++Ecommerce.Application.Tests
+i:{caaf38fd-a54a-4406-a942-12be7e6c1e8d}:Ecommerce.Application.Tests
+++Zależności
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1536
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1384
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:>1689
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:>1383
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1382
+++Categories
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\categories\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\
+++Mocks
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\mocks\
+++Analizatory
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:analizatory
+i:{bc159829-9302-4b17-9639-54b848b6528b}:analizatory
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:analizatory
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:analizatory
+i:{55bbb659-0edf-4af5-936c-02005e036416}:analizatory
+++Pakiety
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:pakiety
+i:{bc159829-9302-4b17-9639-54b848b6528b}:pakiety
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:pakiety
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:pakiety
+i:{55bbb659-0edf-4af5-936c-02005e036416}:pakiety
+++Projekty
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:projekty
+i:{bc159829-9302-4b17-9639-54b848b6528b}:projekty
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:projekty
+i:{55bbb659-0edf-4af5-936c-02005e036416}:projekty
+++Struktury
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:struktury
+i:{bc159829-9302-4b17-9639-54b848b6528b}:struktury
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:struktury
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:struktury
+i:{55bbb659-0edf-4af5-936c-02005e036416}:struktury
+++Command
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\categories\command\
+++Query
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\categories\query\
+++CategoryRepositoryMock.cs
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\mocks\categoryrepositorymock.cs
+++ProductRepositoryMock.cs
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\mocks\productrepositorymock.cs
+++TaxRepositoryMock.cs
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\mocks\taxrepositorymock.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++xunit.analyzers
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++AutoMapper (11.0.0)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1734
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1745
+++coverlet.collector (3.1.0)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1740
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1729
+++Moq (4.16.1)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1739
+++Shouldly (4.0.3)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1726
+++xunit (2.4.1)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1732
+++xunit.runner.visualstudio (2.4.3)
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:>1737
+++Ecommerce.Application
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.application.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.application.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.application.dll
+i:{42f94142-9e8b-48eb-9837-5a7a69474e4a}:Ecommerce.Application
+++Ecommerce.Domain
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\bin\debug\net6.0\ecommerce.domain.dll
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\bin\debug\net6.0\ecommerce.domain.dll
+i:{42f94142-9e8b-48eb-9837-5a7a69474e4a}:Ecommerce.Domain
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\bin\debug\net6.0\ecommerce.domain.dll
+++Microsoft.NETCore.App
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\microsoft.netcore.app
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\microsoft.netcore.app
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\microsoft.netcore.app
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\microsoft.netcore.app
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\microsoft.netcore.app
+++CreateCategoryTest.cs
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\categories\command\createcategorytest.cs
+++UpdateCategoryTest.cs
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\categories\command\updatecategorytest.cs
+++GetCategoryListQueryHandlerTest.cs
+i:{87b954ff-d879-4891-80fd-94d740ea69ed}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application.tests\categories\query\getcategorylistqueryhandlertest.cs
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++Infrastructure
+i:{8ff11a68-2e87-4959-a7ff-c8debd5b3c45}:Infrastructure
+++Ecommerce.Persistence
+i:{96df0e6a-f7e5-4cb0-96b3-3f7260a7f23c}:Ecommerce.Persistence
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\bin\debug\net6.0\ecommerce.persistence.dll
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.3)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1758
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1755
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.3)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1757
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:>1798
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1749
+++Microsoft.Extensions.Options.ConfigurationExtensions (6.0.0)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1756
+++Microsoft.IdentityModel.Tokens (6.16.0)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1759
+++System.IdentityModel.Tokens.Jwt (6.16.0)
+i:{bc159829-9302-4b17-9639-54b848b6528b}:>1752
+++Data
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\
+++Migrations
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\migrations\
+++Seeds
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\seeds\
+++CategoryDataSeed.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\seeds\categorydataseed.cs
+++Repositories
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\repositories\
+++BaseRepository.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\repositories\baserepository.cs
+++CategoryRepository.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\repositories\categoryrepository.cs
+++ProductRepository.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\repositories\productrepository.cs
+++TaxRepository.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\repositories\taxrepository.cs
+++EcommerceContext.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\ecommercecontext.cs
+++PersistenceAndEFInstalation.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\persistenceandefinstalation.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++20220312161905_InitialMigration.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\migrations\20220312161905_initialmigration.cs
+++EcommerceContextModelSnapshot.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\migrations\ecommercecontextmodelsnapshot.cs
+++20220312161905_InitialMigration.Designer.cs
+i:{bc159829-9302-4b17-9639-54b848b6528b}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.persistence\data\migrations\20220312161905_initialmigration.designer.cs
+++API
+i:{8ff11a68-2e87-4959-a7ff-c8debd5b3c45}:API
+++Ecommerce.Api
+i:{3d608319-cae4-4d28-90c3-a4d3db7c5aa2}:Ecommerce.Api
+++Connected Services 
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:>1690
+++Properties
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\properties\
+++Controllers
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\controllers\
+++appsettings.Development.json
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\appsettings.development.json
+++appsettings.json
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\appsettings.json
+++Program.cs
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\program.cs
+++Nie odnaleziono zależności usługi
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:>1691
+++launchSettings.json
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\properties\launchsettings.json
+++CategoryController.cs
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\controllers\categorycontroller.cs
+++ProductController.cs
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\controllers\productcontroller.cs
+++TaxController.cs
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\controllers\taxcontroller.cs
+++Microsoft.AspNetCore.Analyzers
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:>1782
+++Swashbuckle.AspNetCore (6.2.3)
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:>1781
+++Microsoft.AspNetCore.App
+i:{2a24d1c1-094e-4cc3-96ab-8f5a8cae1b2d}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.api\microsoft.aspnetcore.app
+++Core
+i:{8ff11a68-2e87-4959-a7ff-c8debd5b3c45}:Core
+++Common
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\common\
+++AuditableEntity.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\common\auditableentity.cs
+++Entities
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\
+++Identity
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\identity\
+++BaseRoleEnum.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\identity\baseroleenum.cs
+++Role.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\identity\role.cs
+++User.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\identity\user.cs
+++UserRole.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\identity\userrole.cs
+++Adress.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\adress.cs
+++Brand.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\brand.cs
+++Cart.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\cart.cs
+++CartProducts.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\cartproducts.cs
+++Category.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\category.cs
+++CategoryInCategory.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\categoryincategory.cs
+++Order.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\order.cs
+++OrderProducts.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\orderproducts.cs
+++Product.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\product.cs
+++ProductVariant.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\productvariant.cs
+++Tax.cs
+i:{f80fa902-98e1-43bf-827c-c48674e92b81}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.domain\entities\tax.cs
+++Importy
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>562
+++bin
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\
+++Exceptions
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\exceptions\
+++NotFindException.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\exceptions\notfindexception.cs
+++UserRegisterException.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\exceptions\userregisterexception.cs
+++ValidateException.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\exceptions\validateexception.cs
+++Functions
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\
+++Commands
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\commands\
+++CreateCategory
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\createcategory\
+++CreateCategoryCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\createcategory\createcategorycommand.cs
+++CreateCategoryCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\createcategory\createcategorycommandhandler.cs
+++CreateCategoryCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\createcategory\createcategorycommandvalidator.cs
+++UpdateCategory
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\updatecategory\
+++Queries
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\queries\
+++Responses
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\responses\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\responses\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\responses\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\responses\
+++Products
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\
+++Taxes
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\
+++CreateTax
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\createtax\
+++CreateTaxCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\createtax\createtaxcommand.cs
+++CreateTaxCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\createtax\createtaxcommandhandler.cs
+++CreateTaxCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\createtax\createtaxcommandvalidator.cs
+++UpdateTax
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\updatetax\
+++TaxBaseDto.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\responses\taxbasedto.cs
+++Users
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\
+++RegisterUser
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\commands\registeruser\
+++RegisterUserCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\commands\registeruser\registerusercommand.cs
+++RegisterUserCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\commands\registeruser\registerusercommandhandler.cs
+++RegisterUserCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\commands\registeruser\registerusercommandvalidator.cs
+++UserBaseDto.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\responses\userbasedto.cs
+++Interfaces
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\
+++IAdressRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\iadressrepository.cs
+++IBaseRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\ibaserepository.cs
+++IBrandRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\ibrandrepository.cs
+++ICartProductsRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\icartproductsrepository.cs
+++ICartRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\icartrepository.cs
+++ICategoryInCategoryRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\icategoryincategoryrepository.cs
+++ICategoryRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\icategoryrepository.cs
+++IOrderProductsRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\iorderproductsrepository.cs
+++IOrderRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\iorderrepository.cs
+++IProductRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\iproductrepository.cs
+++IProductVariantRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\iproductvariantrepository.cs
+++ITaxRepository.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\itaxrepository.cs
+++Mapper
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\mapper\
+++MappingProfile.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\mapper\mappingprofile.cs
+++obj
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\
+++ApplicationInstalation.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\applicationinstalation.cs
+++Sdk.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Debug
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\
+++Release
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\release\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\
+++UpdateCategoryCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\updatecategory\updatecategorycommand.cs
+++UpdateCategoryCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\updatecategory\updatecategorycommandhandler.cs
+++UpdateCategoryCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\commands\updatecategory\updatecategorycommandvalidator.cs
+++GetCategoryById
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorybyid\
+++GetCategoryList
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorylist\
+++CategoryBaseDto.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\responses\categorybasedto.cs
+++CreateProduct
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\createproduct\
+++UpdateProduct
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\updateproduct\
+++GetProductById
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductbyid\
+++GetProductList
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductlist\
+++ProductBaseDto.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\responses\productbasedto.cs
+++UpdateTaxCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\updatetax\updatetaxcommand.cs
+++UpdateTaxCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\updatetax\updatetaxcommandhandler.cs
+++UpdateTaxCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\commands\updatetax\updatetaxcommandvalidator.cs
+++GetTaxById
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxbyid\
+++GetTaxList
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxlist\
+++Ecommerce.Application.csproj.nuget.dgspec.json
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\ecommerce.application.csproj.nuget.dgspec.json
+++Ecommerce.Application.csproj.nuget.g.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\ecommerce.application.csproj.nuget.g.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\ecommerce.application.csproj.nuget.g.props
+++Ecommerce.Application.csproj.nuget.g.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\ecommerce.application.csproj.nuget.g.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\ecommerce.application.csproj.nuget.g.targets
+++project.assets.json
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\project.assets.json
+++project.nuget.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\project.nuget.cache
+++Microsoft.Common.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1738
+++FluentValidation (10.3.6)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1743
+++FluentValidation.DependencyInjectionExtensions (10.3.6)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1735
+++MediatR (10.0.1)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1742
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:>1747
+++net6.0
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\release\net6.0\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\
+++GetCategoryByIdQuery.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorybyid\getcategorybyidquery.cs
+++GetCategoryByIdQueryHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorybyid\getcategorybyidqueryhandler.cs
+++GetCategoryByIdQueryValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorybyid\getcategorybyidqueryvalidator.cs
+++GetCategoryListQuery.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorylist\getcategorylistquery.cs
+++GetCategoryListQueryHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\categories\queries\getcategorylist\getcategorylistqueryhandler.cs
+++CreateProductCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\createproduct\createproductcommand.cs
+++CreateProductCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\createproduct\createproductcommandhandler.cs
+++CreateProductCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\createproduct\createproductcommandvalidator.cs
+++UpdateProductCommand.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\updateproduct\updateproductcommand.cs
+++UpdateProductCommandHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\updateproduct\updateproductcommandhandler.cs
+++UpdateProductCommandValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\commands\updateproduct\updateproductcommandvalidator.cs
+++GetProductByIdQuery.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductbyid\getproductbyidquery.cs
+++GetProductByIdQueryHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductbyid\getproductbyidqueryhandler.cs
+++GetProductByIdQueryValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductbyid\getproductbyidqueryvalidator.cs
+++GetProductListQuery.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductlist\getproductlistquery.cs
+++GetProductListQueryHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\products\queries\getproductlist\getproductlistqueryhandler.cs
+++GetByTaxIdQueryHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxbyid\getbytaxidqueryhandler.cs
+++GetTaxByIdQuery.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxbyid\gettaxbyidquery.cs
+++GetTaxByIdQueryValidator.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxbyid\gettaxbyidqueryvalidator.cs
+++GetTaxListQuery.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxlist\gettaxlistquery.cs
+++GetTaxListQueryHandler.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\taxes\queries\gettaxlist\gettaxlistqueryhandler.cs
+++Microsoft.NuGet.ImportBefore.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++ref
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ref\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\release\net6.0\ref\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ref\
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ref\
+++Ecommerce.Application.deps.json
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.application.deps.json
+++Ecommerce.Application.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.application.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ref\ecommerce.application.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\refint\ecommerce.application.dll
+++Ecommerce.Application.pdb
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.application.pdb
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.pdb
+++Ecommerce.Domain.dll
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.domain.dll
+++Ecommerce.Domain.pdb
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\bin\debug\net6.0\ecommerce.domain.pdb
+++refint
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\refint\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++Ecommerce.Application.AssemblyInfo.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.assemblyinfo.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ecommerce.application.assemblyinfo.cs
+++Ecommerce.Application.AssemblyInfoInputs.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.assemblyinfoinputs.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ecommerce.application.assemblyinfoinputs.cache
+++Ecommerce.Application.assets.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.assets.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ecommerce.application.assets.cache
+++Ecommerce.Application.csproj.AssemblyReference.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.csproj.assemblyreference.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ecommerce.application.csproj.assemblyreference.cache
+++Ecommerce.Application.csproj.BuildWithSkipAnalyzers
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.csproj.buildwithskipanalyzers
+++Ecommerce.Application.csproj.CopyComplete
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.csproj.copycomplete
+++Ecommerce.Application.csproj.CoreCompileInputs.cache
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.csproj.corecompileinputs.cache
+++Ecommerce.Application.csproj.FileListAbsolute.txt
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.csproj.filelistabsolute.txt
+++Ecommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.generatedmsbuildeditorconfig.editorconfig
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ecommerce.application.generatedmsbuildeditorconfig.editorconfig
+++Ecommerce.Application.GlobalUsings.g.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\debug\net6.0\ecommerce.application.globalusings.g.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\obj\release\net6.0\ecommerce.application.globalusings.g.cs
+++Microsoft.NuGet.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.NET.props
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Xamarin.Common.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\xamarin.common.targets
+++Microsoft.Docker.targets
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Nowy folder
+++Services
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\services\
+++ITokenService.cs
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\interfaces\services\itokenservice.cs
+++LoginUser
+i:{55bbb659-0edf-4af5-936c-02005e036416}:c:\users\przyb\source\repos\jared0o\ecommerce.backend\ecommerce.application\functions\users\queries\loginuser\

@@ -5,11 +5,10 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public string Slug { get; set; }
-        public int TaxId { get; set; }
-        public float Price { get; set; }
-        public string Description { get; set; }
-        public string Sku { get; set; }
-        public string Brand { get; set; }
-        public string isDisable { get; set; }
+        public int? TaxId { get; set; }
+        public string? Description { get; set; }
+        public int? BrandId { get; set; }
+        public bool IsActive { get; set; }
+        public int? CategoryId { get; set; }
     }
 }

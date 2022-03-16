@@ -12,7 +12,10 @@ using Ecommerce.Application.Functions.Taxes.Commands.UpdateTax;
 using Ecommerce.Application.Functions.Taxes.Queries.GetTaxById;
 using Ecommerce.Application.Functions.Taxes.Queries.GetTaxList;
 using Ecommerce.Application.Functions.Taxes.Responses;
+using Ecommerce.Application.Functions.Users.Commands.RegisterUser;
+using Ecommerce.Application.Functions.Users.Responses;
 using Ecommerce.Domain.Entities;
+using Ecommerce.Domain.Entities.Identity;
 
 namespace Ecommerce.Application.Mapper
 {
@@ -29,6 +32,8 @@ namespace Ecommerce.Application.Mapper
             CreateMap<Product, ProductBaseDto>();
             CreateMap<CreateProductCommand, Product>();
             CreateMap<UpdateProductCommand, Product>();
+            CreateMap<User, UserBaseDto>();
+            CreateMap<RegisterUserCommand, User>();
         }
     }
 }

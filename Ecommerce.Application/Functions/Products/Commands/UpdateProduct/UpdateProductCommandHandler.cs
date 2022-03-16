@@ -7,22 +7,20 @@ using MediatR;
 
 namespace Ecommerce.Application.Functions.Products.Commands.UpdateProduct
 {
-    internal class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, ProductBaseDto>
+    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, ProductBaseDto>
     {
         private readonly IMapper _mapper;
-        private readonly ITaxRepository _taxRepository;
         private readonly IProductRepository _productRepository;
 
-        public UpdateProductCommandHandler(IMapper mapper, ITaxRepository taxRepository, IProductRepository productRepository)
+        public UpdateProductCommandHandler(IMapper mapper, IProductRepository productRepository)
         {
             _mapper = mapper;
-            _taxRepository = taxRepository;
             _productRepository = productRepository;
         }
 
         public async Task<ProductBaseDto> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
-            var validator = new UpdateProductCommandValidator(_productRepository, _taxRepository);
+            var validator = new UpdateProductCommandValidator();
             var validatorResult = await validator.ValidateAsync(request, cancellationToken);
 
             if (!validatorResult.IsValid)

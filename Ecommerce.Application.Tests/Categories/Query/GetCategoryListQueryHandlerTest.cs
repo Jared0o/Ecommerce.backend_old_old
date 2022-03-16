@@ -31,6 +31,7 @@ namespace Ecommerce.Application.Tests.Categories.Query
         }
 
         [Fact]
+        [Trait("Category", "Category")]
         public async Task GetCategoryListTest()
         {
             var handler = new GetCategoryListQueryHandler(_mapper, _mockCategoryRepository.Object);

@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Ecommerce.Application.Functions.Products.Queries.GetProductById
 {
-    internal class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, ProductBaseDto>
+    public  class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, ProductBaseDto>
     {
         private readonly IMapper _mapper;
         private readonly IProductRepository _productRepository;
@@ -18,7 +18,7 @@ namespace Ecommerce.Application.Functions.Products.Queries.GetProductById
         }
         public async Task<ProductBaseDto> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
-            var validator = new GetProductByIdQueryValidator(_productRepository);
+            var validator = new GetProductByIdQueryValidator();
             var validatorResult = await validator.ValidateAsync(request, cancellationToken);
 
             if (!validatorResult.IsValid)

@@ -11,10 +11,6 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
         {
             _categoryRepository = categoryRepository;
 
-            RuleFor(x => x.Id)
-                .MustAsync(async (id, CancellationToken) => await CheckExistAsync(id))
-                .WithMessage("Not find category with Id {PropertyValue}");
-
             RuleFor(x => x.Name)
                 .NotEmpty()
                 .NotNull()
@@ -24,15 +20,6 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
 
             RuleFor(x => x.Description)
                 .MaximumLength(250);
-        }
-
-        private async Task<bool> CheckExistAsync(int id)
-        {
-            var check = await _categoryRepository.GetByIdAsync(id);
-            if (check == null)
-                return false;
-
-            return true;
         }
     }
 }

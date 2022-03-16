@@ -7,7 +7,7 @@ using MediatR;
 
 namespace Ecommerce.Application.Functions.Taxes.Commands.CreateTax
 {
-    public class CreateTaxCommandHandler : IRequestHandler<CreateTaxCommand, TaxBaseDto>
+    internal class CreateTaxCommandHandler : IRequestHandler<CreateTaxCommand, TaxBaseDto>
     {
         private readonly IMapper _mapper;
         private readonly ITaxRepository _taxRepository;

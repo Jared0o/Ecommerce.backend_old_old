@@ -7,22 +7,20 @@ using MediatR;
 
 namespace Ecommerce.Application.Functions.Products.Commands
 {
-    internal class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, ProductBaseDto>
+    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, ProductBaseDto>
     {
         private readonly IMapper _mapper;
-        private readonly ITaxRepository _taxRepository;
         private readonly IProductRepository _productRepository;
 
-        public CreateProductCommandHandler(IMapper mapper, ITaxRepository taxRepository, IProductRepository productRepository)
+        public CreateProductCommandHandler(IMapper mapper, IProductRepository productRepository)
         {
             _mapper = mapper;
-            _taxRepository = taxRepository;
             _productRepository = productRepository;
         }
 
         public async Task<ProductBaseDto> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var validator = new CreateProductCommandValidator(_taxRepository);
+            var validator = new CreateProductCommandValidator();
             var validatorResult = await validator.ValidateAsync(request);
 
             if (!validatorResult.IsValid)
