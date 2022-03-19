@@ -18,13 +18,10 @@ namespace Ecommerce.Application.Functions.Taxes.Queries.GetTaxById
         }
         public async Task<TaxBaseDto> Handle(GetTaxByIdQuery request, CancellationToken cancellationToken)
         {
-            var validator = new GetTaxByIdQueryValidator(_taxRepository);
-            var validatorResult = await validator.ValidateAsync(request, cancellationToken);
-
-            if (!validatorResult.IsValid)
-                throw new ValidateException(validatorResult);
-
             var tax = await _taxRepository.GetByIdAsync(request.Id);
+
+            if (tax == null)
+                throw new NotFindException($"Not find tax with Id {request.Id}");
 
             var response = _mapper.Map<TaxBaseDto>(tax);
 

@@ -18,12 +18,6 @@ namespace Ecommerce.Application.Functions.Categories.Queries.GetCategoryById
         }
         public async Task<CategoryBaseDto> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
         {
-            var validator = new GetCategoryByIdQueryValidator();
-            var validatorResult = await validator.ValidateAsync(request, cancellationToken);
-
-            if (!validatorResult.IsValid)
-                throw new ValidateException(validatorResult);
-
             var category = await _categoryRepository.GetByIdAsync(request.Id);
 
             if (category == null)

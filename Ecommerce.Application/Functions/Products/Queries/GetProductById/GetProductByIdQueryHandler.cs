@@ -18,13 +18,9 @@ namespace Ecommerce.Application.Functions.Products.Queries.GetProductById
         }
         public async Task<ProductBaseDto> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
-            var validator = new GetProductByIdQueryValidator();
-            var validatorResult = await validator.ValidateAsync(request, cancellationToken);
-
-            if (!validatorResult.IsValid)
-                throw new ValidateException(validatorResult);
-
             var product = await _productRepository.GetByIdAsync(request.Id);
+            if (product == null)
+                throw new NotFindException($"Not find product with Id {request.Id}");
 
             var response = _mapper.Map<ProductBaseDto>(product);
 
