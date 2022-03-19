@@ -2,7 +2,7 @@
 using Ecommerce.Domain.Entities;
 using Moq;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace Ecommerce.Application.Tests.Mocks
 {
@@ -22,6 +22,16 @@ namespace Ecommerce.Application.Tests.Mocks
             });
 
             mockAdressRepository.Setup(repo => repo.GetAllAsync()).ReturnsAsync(adresses);
+            mockAdressRepository.Setup(repo => repo.GetByIdAsync(It.IsAny<int>())).ReturnsAsync((int id) =>
+            {
+                return adresses.SingleOrDefault(x => x.Id == id);
+            });
+
+            mockAdressRepository.Setup(repo => repo.UpdateAsync(It.IsAny<Adress>())).ReturnsAsync((Adress adress) =>
+            {
+
+                return adress;
+            });
 
 
             return mockAdressRepository;
@@ -44,7 +54,7 @@ namespace Ecommerce.Application.Tests.Mocks
             };
             Adress a2 = new Adress()
             {
-                Id = 1,
+                Id = 2,
                 Name = "Jan Kowlaski",
                 Country = "Polska",
                 City = "Łódź",
@@ -57,7 +67,7 @@ namespace Ecommerce.Application.Tests.Mocks
             };
             Adress a3 = new Adress()
             {
-                Id = 1,
+                Id = 3,
                 Name = "Jan Kowlaski",
                 Country = "Polska",
                 City = "Łódź",
@@ -70,7 +80,7 @@ namespace Ecommerce.Application.Tests.Mocks
             };
             Adress a4 = new Adress()
             {
-                Id = 1,
+                Id = 4,
                 Name = "Jan Kowlaski",
                 Country = "Polska",
                 City = "Łódź",

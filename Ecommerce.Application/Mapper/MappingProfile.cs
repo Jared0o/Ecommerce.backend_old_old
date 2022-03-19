@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ecommerce.Application.Functions.Adresses.Commands;
+using Ecommerce.Application.Functions.Adresses.Commands.UpdateAdress;
 using Ecommerce.Application.Functions.Adresses.Responses;
 using Ecommerce.Application.Functions.Categories.Commands.CreateCategory;
 using Ecommerce.Application.Functions.Categories.Commands.UpdateCategory;
@@ -34,6 +35,7 @@ namespace Ecommerce.Application.Mapper
             CreateMap<RegisterUserCommand, User>();
             CreateMap<Adress, AdressBaseDto>();
             CreateMap<CreateAdressCommand, Adress>();
+            CreateMap<UpdateAdressCommand, Adress>();
         }
     }
 }

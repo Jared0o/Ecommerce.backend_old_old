@@ -29,7 +29,7 @@ namespace Ecommerce.Application.Functions.Adresses.Commands
 
             RuleFor(adr => adr.City)
                 .NotNull().WithMessage("{PropertyName} is required.")
-                .MinimumLength(5).WithMessage("{PropertyName} must not be less than 5 characters.")
+                .MinimumLength(4).WithMessage("{PropertyName} must not be less than 4 characters.")
                 .MaximumLength(80).WithMessage("{PropertyName} must not exceed 80 characters.");
 
             RuleFor(adr => adr.Street)
