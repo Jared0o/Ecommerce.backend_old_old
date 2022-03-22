@@ -30,7 +30,7 @@ namespace Ecommerce.Application.Functions.Adresses.Commands.UpdateAdress
 
             var user = _userManager.FindByEmailAsync(request.UserEmail);
             if (user == null)
-                throw new AuthenticationByEmailException($"Not Find User With Email {request.UserEmail}");
+                throw new AuthenticationByEmailException($"Not find user with email: {request.UserEmail}");
 
             var adressFromDb = await _adressRepository.GetByIdAsync(request.Id);
             if (user.Id != adressFromDb.UserId)

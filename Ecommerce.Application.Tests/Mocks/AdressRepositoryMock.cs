@@ -1,7 +1,9 @@
 ﻿using Ecommerce.Application.Interfaces;
 using Ecommerce.Domain.Entities;
+using Ecommerce.Domain.Entities.Identity;
 using Moq;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Ecommerce.Application.Tests.Mocks
@@ -31,6 +33,20 @@ namespace Ecommerce.Application.Tests.Mocks
             {
 
                 return adress;
+            });
+
+            mockAdressRepository.Setup(repo => repo.GetUserAdresssByIdAsync(It.IsAny<User>(), It.IsAny<int>())).ReturnsAsync((User user, int id) =>
+            {
+                var adress = adresses.Find(adress => adress.Id == id && adress.UserId == user.Id);
+                return adress;
+            });
+
+
+            mockAdressRepository.Setup(repo => repo.GetUserAdressesAsync(It.IsAny<User>())).ReturnsAsync((User user) =>
+            {
+                IReadOnlyList<Adress> userAdresses = adresses.FindAll(adress => adress.UserId == user.Id).AsReadOnly();
+
+                return userAdresses;
             });
 
 
