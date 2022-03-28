@@ -20,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Functions\Carts\Commands\AddProductToCart\" />
+    <Folder Include="Functions\Carts\Queries\" />
     <Folder Include="Functions\Users\Queries\LoginUser\" />
   </ItemGroup>
 

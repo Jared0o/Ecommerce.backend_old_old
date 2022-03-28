@@ -3,7 +3,6 @@ using Ecommerce.Domain.Entities;
 using Ecommerce.Domain.Entities.Identity;
 using Moq;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Ecommerce.Application.Tests.Mocks

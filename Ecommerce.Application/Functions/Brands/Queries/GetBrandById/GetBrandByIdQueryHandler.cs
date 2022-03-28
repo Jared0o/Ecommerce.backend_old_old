@@ -23,7 +23,7 @@ namespace Ecommerce.Application.Functions.Brands.Queries.GetBrandById
             if (!validatorResult.IsValid)
                 throw new ValidateException(validatorResult);
 
-            var brand = _brandRepository.GetByIdAsync(request.Id);
+            var brand = await _brandRepository.GetByIdAsync(request.Id);
             if (brand == null)
                 throw new NotFindException($"Not Find brand with Id {request.Id}");
 

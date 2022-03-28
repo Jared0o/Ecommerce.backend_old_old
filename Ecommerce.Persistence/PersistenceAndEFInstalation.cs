@@ -17,17 +17,30 @@ namespace Ecommerce.Persistence
     {
         public static IServiceCollection EcommercePersistenceEFInstalation(this IServiceCollection service, IConfiguration config)
         {
+            //repositories
             service.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             service.AddScoped<ICategoryRepository, CategoryRepository>();
             service.AddScoped<ITaxRepository, TaxRepository>();
             service.AddScoped<IProductRepository, ProductRepository>();
+            service.AddScoped<IAdressRepository, AdressRepository>();
+            service.AddScoped<IBrandRepository, BrandRepository>();
+            service.AddScoped<ICartProductsRepository, CartProductsRepository>();
+            service.AddScoped<ICartRepository, CartRepository>();
+            service.AddScoped<IOrderProductsRepository, OrderProductRepository>();
+            service.AddScoped<IOrderRepository, OrderRepository>();
+            service.AddScoped<IProductVariantRepository, ProductVariantRepository>();
+
+            //services
             service.AddScoped<ITokenService, TokenService>();
 
+
+            //efcore config
             service.AddDbContext<EcommerceContext>(opt =>
             {
                 opt.UseSqlServer(config.GetConnectionString("SqlServerConnectionString"));
             });
 
+            //identity config
             service.AddIdentityCore<User>()
                 .AddRoles<Role>()
                 .AddRoleManager<RoleManager<Role>>()
@@ -35,6 +48,7 @@ namespace Ecommerce.Persistence
                 .AddRoleValidator<RoleValidator<Role>>()
                 .AddEntityFrameworkStores<EcommerceContext>();
 
+            //jwt config
             service.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opt =>
                 {
@@ -48,6 +62,7 @@ namespace Ecommerce.Persistence
                     };
                 });
 
+            //authorization config
             service.AddAuthorization(opt =>
             {
                 opt.AddPolicy("AdminRoleRequire", policy => policy.RequireRole(BaseRoleEnum.Admin.ToString()));

@@ -9,5 +9,12 @@ namespace Ecommerce.Domain.Entities
         public User User { get; set; }
 
         public IEnumerable<CartProducts> ProductsInCart { get; set; }
+
+        public Cart() {}
+
+        public Cart(int userId)
+        {
+            UserId = userId;
+        }
     }
 }

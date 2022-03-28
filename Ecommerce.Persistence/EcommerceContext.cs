@@ -22,7 +22,6 @@ namespace Ecommerce.Persistence
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<CartProducts> CartProducts { get; set; }
-        public DbSet<CategoryInCategory> CategoryInCategory { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderProducts> OrderProducts { get; set; }
         public DbSet<ProductVariant> ProductVariants { get; set; }
@@ -65,19 +64,16 @@ namespace Ecommerce.Persistence
                 .HasForeignKey(ur => ur.RoleId)
                 .IsRequired();
 
-            modelBuilder.Entity<CategoryInCategory>()
+            modelBuilder.Entity<Category>()
                 .HasOne(pc => pc.ParentCategory)
-                .WithMany(cat => cat.CategoriesChilds)
-                .HasForeignKey(pc => pc.ParentCategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .WithMany(pc => pc.ChildCategories)
+                .HasForeignKey(pc => pc.ParentCategoryId);
 
             modelBuilder.Entity<Order>()
                 .HasOne(u => u.User)
                 .WithMany(or => or.Orders)
                 .HasForeignKey(u => u.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
-                
-
+                .OnDelete(DeleteBehavior.Restrict);              
 
             foreach (var category in CategoryDataSeed.GetCategories())
             {

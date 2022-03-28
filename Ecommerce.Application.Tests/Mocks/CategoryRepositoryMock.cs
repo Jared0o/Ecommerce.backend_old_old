@@ -39,6 +39,16 @@ namespace Ecommerce.Application.Tests.Mocks
                 return categories.FirstOrDefault(x => x.Id == category.Id);
             });
 
+            mockCategoryRepository.Setup(r => r.UpdateParentCategoryAsync(It.IsAny<Category>(), It.IsAny<Category>())).ReturnsAsync((Category childCate, Category parentCate) =>
+            {
+                var childCategory = categories[childCate.Id - 1];
+                var parntCategory = categories[parentCate.Id - 1];
+
+                childCategory.ParentCategoryId = parentCate.Id;
+
+                return childCategory;
+            });
+
             return mockCategoryRepository;
         }
 
