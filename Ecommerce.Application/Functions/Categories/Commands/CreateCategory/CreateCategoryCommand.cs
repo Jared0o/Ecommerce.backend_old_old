@@ -8,5 +8,10 @@ namespace Ecommerce.Application.Functions.Categories.Commands.CreateCategory
         public string Name { get; set; }
         public string? Description { get; set; }
 
+        public CreateCategoryCommand(string name, string? description)
+        {
+            Name = name;
+            Description = description;
+        }
     }
 }

@@ -5,11 +5,10 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
 {
     public class UpdateCategoryCommandValidator : AbstractValidator<UpdateCategoryCommand>
     {
-        private readonly ICategoryRepository _categoryRepository;
 
-        public UpdateCategoryCommandValidator(ICategoryRepository categoryRepository)
+        public UpdateCategoryCommandValidator()
         {
-            _categoryRepository = categoryRepository;
+            RuleFor(x => x.Id).NotEmpty().NotNull();
 
             RuleFor(x => x.Name)
                 .NotEmpty()

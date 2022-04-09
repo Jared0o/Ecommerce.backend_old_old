@@ -6,7 +6,7 @@ namespace Ecommerce.Persistence.Repositories
 {
     internal class BaseRepository<T> : IBaseRepository<T> where T : AuditableEntity
     {
-        private readonly EcommerceContext _context;
+        protected readonly EcommerceContext _context;
 
         public BaseRepository(EcommerceContext context)
         {

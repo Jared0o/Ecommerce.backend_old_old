@@ -35,7 +35,7 @@ namespace Ecommerce.Application.Tests.Categories.Query
             var id = 2;
             var handler = new GetCategoryByIdQueryHandler(_mapper, _mockCategoryRepository.Object);
 
-            var result = await handler.Handle(new GetCategoryByIdQuery() { Id = id }, CancellationToken.None);
+            var result = await handler.Handle(new GetCategoryByIdQuery(id), CancellationToken.None);
 
             result.ShouldBeOfType<CategoryBaseDto>();
 

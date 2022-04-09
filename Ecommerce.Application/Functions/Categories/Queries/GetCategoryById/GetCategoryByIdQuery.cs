@@ -6,5 +6,10 @@ namespace Ecommerce.Application.Functions.Categories.Queries.GetCategoryById
     public class GetCategoryByIdQuery : IRequest<CategoryBaseDto>
     {
         public int Id { get; set; }
+
+        public GetCategoryByIdQuery(int id)
+        {
+            Id = id;
+        }
     }
 }

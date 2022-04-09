@@ -66,7 +66,8 @@ namespace Ecommerce.Persistence
             service.AddAuthorization(opt =>
             {
                 opt.AddPolicy("AdminRoleRequire", policy => policy.RequireRole(BaseRoleEnum.Admin.ToString()));
-                opt.AddPolicy("UserRoleRequire", policy => policy.RequireRole(BaseRoleEnum.Admin.ToString(), BaseRoleEnum.User.ToString()));
+                opt.AddPolicy("OperatorRoleRequire", policy => policy.RequireRole(BaseRoleEnum.Admin.ToString(), BaseRoleEnum.Operator.ToString()));
+                opt.AddPolicy("UserRoleRequire", policy => policy.RequireRole(BaseRoleEnum.Admin.ToString(), BaseRoleEnum.User.ToString(), BaseRoleEnum.Operator.ToString()));
             });
 
 

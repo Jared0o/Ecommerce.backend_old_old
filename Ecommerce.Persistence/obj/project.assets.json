@@ -1101,7 +1101,8 @@
           "FluentValidation": "10.3.6",
           "FluentValidation.DependencyInjectionExtensions": "10.3.6",
           "MediatR": "10.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
+          "Microsoft.AspNetCore.Identity": "2.2.0"
         },
         "compile": {
           "bin/placeholder/Ecommerce.Application.dll": {}

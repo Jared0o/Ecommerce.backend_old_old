@@ -1,4 +1,6 @@
-﻿namespace Ecommerce.Application.Functions.Carts.Responses
+﻿using Ecommerce.Domain.Entities;
+
+namespace Ecommerce.Application.Functions.Carts.Responses
 {
     public class CartBaseResponse
     {

@@ -5,6 +5,7 @@ using Ecommerce.Application.Functions.Adresses.Responses;
 using Ecommerce.Application.Functions.Brands.Commands.CreateBrand;
 using Ecommerce.Application.Functions.Brands.Commands.UpdateBrand;
 using Ecommerce.Application.Functions.Brands.Responses;
+using Ecommerce.Application.Functions.Carts.Responses;
 using Ecommerce.Application.Functions.Categories.Commands.CreateCategory;
 using Ecommerce.Application.Functions.Categories.Commands.UpdateCategory;
 using Ecommerce.Application.Functions.Categories.Responses;
@@ -42,6 +43,7 @@ namespace Ecommerce.Application.Mapper
             CreateMap<Brand, BrandBaseResponse>();
             CreateMap<CreateBrandCommand, Brand>();
             CreateMap<UpdateBrandCommand, Brand>();
+            CreateMap<Cart, CartBaseResponse>();
         }
     }
 }

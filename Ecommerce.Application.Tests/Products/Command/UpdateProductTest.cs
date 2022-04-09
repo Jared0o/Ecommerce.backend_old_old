@@ -34,7 +34,7 @@ namespace Ecommerce.Application.Tests.Products.Command
         {
             var handle = new UpdateProductCommandHandler(_mapper, _mockProductRepository.Object);
 
-            var response = await handle.Handle(new UpdateProductCommand() { Id = 2, BrandId = 1, CategoryId = 1, Description = "Opis", IsActive = true, Name = "nowa nazwa", TaxId = 2 }, CancellationToken.None);
+            var response = await handle.Handle(new UpdateProductCommand(2, "nowa nazwa", 2, "Opis", 1, 1, true), CancellationToken.None);
 
             response.ShouldBeOfType<ProductBaseDto>();
             response.Id.ShouldBe(2);

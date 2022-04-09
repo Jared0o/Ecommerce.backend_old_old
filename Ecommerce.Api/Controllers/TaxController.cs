@@ -1,4 +1,5 @@
-﻿using Ecommerce.Application.Functions.Taxes.Commands.CreateTax;
+﻿using Ecommerce.Api.Models.Taxes;
+using Ecommerce.Application.Functions.Taxes.Commands.CreateTax;
 using Ecommerce.Application.Functions.Taxes.Commands.UpdateTax;
 using Ecommerce.Application.Functions.Taxes.Queries.GetTaxById;
 using Ecommerce.Application.Functions.Taxes.Queries.GetTaxList;
@@ -27,26 +28,26 @@ namespace Ecommerce.Api.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{Id}")]
-        public async Task<ActionResult<TaxBaseDto>> GetTaxAsync([FromRoute] GetTaxByIdQuery request)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TaxBaseDto>> GetTaxAsync([FromRoute] int id)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new GetTaxByIdQuery(id));
 
             return Ok(response);
         }
 
         [HttpPost]
-        public async Task<ActionResult<TaxBaseDto>> CreateTaxAsync(CreateTaxCommand request)
+        public async Task<ActionResult<TaxBaseDto>> CreateTaxAsync([FromBody]CreateTaxDto body)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new CreateTaxCommand(body.Name, body.Value));
 
             return Ok(response);
         }
 
-        [HttpPatch]
-        public async Task<ActionResult<TaxBaseDto>> UpdateTaxAsync(UpdateTaxCommand request)
+        [HttpPatch("{id}")]
+        public async Task<ActionResult<TaxBaseDto>> UpdateTaxAsync([FromRoute]int id, [FromBody]UpdateTaxDto body)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new UpdateTaxCommand(id, body.Name, body.Value));
 
             return Ok(response);
         }

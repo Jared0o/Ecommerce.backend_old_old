@@ -1,5 +1,7 @@
 ﻿using Ecommerce.Application.Interfaces;
 using Ecommerce.Domain.Entities;
+using Ecommerce.Domain.Entities.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Persistence.Repositories
 {
@@ -9,9 +11,16 @@ namespace Ecommerce.Persistence.Repositories
         {
         }
 
-        public Task<Cart> GetByUserIdAsync(int id)
+        public async Task AddProductToCartAsync(ProductVariant productVariant, Cart cart, int quantity)
         {
-            throw new NotImplementedException();
+            await _context.CartProducts.AddAsync(new CartProducts(cart.Id, productVariant.Id, quantity));
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<Cart> GetByUserIdAsync(int id)
+        {
+            var cart = await _context.Carts.FirstOrDefaultAsync(x => x.UserId == id);
+            return cart;
         }
     }
 }

@@ -34,7 +34,7 @@ namespace Ecommerce.Application.Tests.Products.Query
             var id = 2;
             var handler = new GetProductByIdQueryHandler(_mapper, _mockProductRepository.Object);
 
-            var result = await handler.Handle(new GetProductByIdQuery() { Id = id }, CancellationToken.None);
+            var result = await handler.Handle(new GetProductByIdQuery(id), CancellationToken.None);
 
             result.ShouldBeOfType<ProductBaseDto>();
             result.Id.ShouldBe(id);

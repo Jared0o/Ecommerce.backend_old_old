@@ -33,7 +33,7 @@ namespace Ecommerce.Application.Tests.Categories.Command
         {
             var handler = new UpdateCategoryCommandHandler(_mapper, _mockCategoryRepository.Object);
 
-            var response = await handler.Handle(new UpdateCategoryCommand() { Id = 2, Name = "Gry Specjalne", IsActive = false, Description = "Specjalna kategoria" }, CancellationToken.None);
+            var response = await handler.Handle(new UpdateCategoryCommand(2, "Gry Specjalne", "Specjalna kategoria", false), CancellationToken.None);
 
             response.ShouldBeOfType<CategoryBaseDto>();
             response.Id.ShouldBe(2);

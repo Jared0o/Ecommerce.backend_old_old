@@ -1,4 +1,5 @@
-﻿using Ecommerce.Application.Functions.Categories.Commands.CreateCategory;
+﻿using Ecommerce.Api.Models.Categories;
+using Ecommerce.Application.Functions.Categories.Commands.CreateCategory;
 using Ecommerce.Application.Functions.Categories.Commands.UpdateCategory;
 using Ecommerce.Application.Functions.Categories.Queries.GetCategoryById;
 using Ecommerce.Application.Functions.Categories.Queries.GetCategoryList;
@@ -27,23 +28,26 @@ namespace Ecommerce.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CategoryBaseDto>> CreateCategory(CreateCategoryCommand request)
+        public async Task<ActionResult<CategoryBaseDto>> CreateCategory([FromBody]CreateCategoryDto createCategoryDto)
         {
+            var request = new CreateCategoryCommand(createCategoryDto.Name, createCategoryDto.Description);
             var response = await _mediator.Send(request);
             return Ok(response); 
         }
 
-        [HttpGet("{Id}")]
-        public async Task<ActionResult<CategoryBaseDto>> GetCategory([FromRoute] GetCategoryByIdQuery request)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<CategoryBaseDto>> GetCategory([FromRoute] int id)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new GetCategoryByIdQuery(id));
             return Ok(response);
         }
-        [HttpPatch]
-        public async Task<ActionResult<CategoryBaseDto>> UpdateCategory([FromBody] UpdateCategoryCommand request)
+
+        [HttpPatch("{id}")]
+        public async Task<ActionResult<CategoryBaseDto>> UpdateCategory([FromRoute]int id, [FromBody] UpdateCategoryDto body)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new UpdateCategoryCommand(id, body.Name, body.Description, body.IsActive));
             return Ok(response);
         }
+
     }
 }

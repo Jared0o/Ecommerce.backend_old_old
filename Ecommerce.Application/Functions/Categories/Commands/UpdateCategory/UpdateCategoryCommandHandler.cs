@@ -21,7 +21,7 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
         {
             
 
-            var validator = new UpdateCategoryCommandValidator(_categoryRepository);
+            var validator = new UpdateCategoryCommandValidator();
             var validatorResult = await validator.ValidateAsync(request);
 
             if (!validatorResult.IsValid)

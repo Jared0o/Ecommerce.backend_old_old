@@ -1,4 +1,5 @@
-﻿using Ecommerce.Application.Functions.Products.Commands;
+﻿using Ecommerce.Api.Models.Products;
+using Ecommerce.Application.Functions.Products.Commands;
 using Ecommerce.Application.Functions.Products.Commands.UpdateProduct;
 using Ecommerce.Application.Functions.Products.Queries.GetProductById;
 using Ecommerce.Application.Functions.Products.Queries.GetProductList;
@@ -20,17 +21,16 @@ namespace Ecommerce.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ProductBaseDto>> AddProductAsync([FromBody]CreateProductCommand request)
+        public async Task<ActionResult<ProductBaseDto>> AddProductAsync([FromBody]CreateProductDto body)
         {
-            var response = await _mediator.Send(request);
-
+            var response = await _mediator.Send(new CreateProductCommand(body.Name, body.TaxId, body.Description, body.BrandId, body.CategoryId));
             return Ok(response);
         }
 
-        [HttpPatch]
-        public async Task<ActionResult<ProductBaseDto>> UpdateProductAsync([FromBody] UpdateProductCommand request)
+        [HttpPatch("{id}")]
+        public async Task<ActionResult<ProductBaseDto>> UpdateProductAsync([FromRoute]int id, [FromBody] UpdateProductDto body)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new UpdateProductCommand(id, body.Name, body.TaxId, body.Description, body.BrandId, body.CategoryId, body.IsActive));
 
             return Ok(response);
         }
@@ -43,10 +43,10 @@ namespace Ecommerce.Api.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{Id}")]
-        public async Task<ActionResult<ProductBaseDto>> GetProductByIdAsync([FromRoute]GetProductByIdQuery request)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ProductBaseDto>> GetProductByIdAsync([FromRoute]int id)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(new GetProductByIdQuery(id));
 
             return Ok(response);
         }

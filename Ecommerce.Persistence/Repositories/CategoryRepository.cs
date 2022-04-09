@@ -1,10 +1,6 @@
 ﻿using Ecommerce.Application.Interfaces;
 using Ecommerce.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Persistence.Repositories
 {
@@ -13,11 +9,6 @@ namespace Ecommerce.Persistence.Repositories
         public CategoryRepository(EcommerceContext context) : base(context)
         {
             
-        }
-
-        public Task<Category> UpdateParentCategoryAsync(Category childCategory, Category parentCategory)
-        {
-            throw new NotImplementedException();
         }
     }
 }

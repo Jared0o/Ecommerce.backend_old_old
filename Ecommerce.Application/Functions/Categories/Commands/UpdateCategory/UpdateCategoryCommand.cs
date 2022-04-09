@@ -9,5 +9,13 @@ namespace Ecommerce.Application.Functions.Categories.Commands.UpdateCategory
         public string Name { get; set; }
         public string Description { get; set; }
         public bool IsActive { get; set; }
+
+        public UpdateCategoryCommand(int id, string name, string description, bool isActive)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            IsActive = isActive;
+        }
     }
 }

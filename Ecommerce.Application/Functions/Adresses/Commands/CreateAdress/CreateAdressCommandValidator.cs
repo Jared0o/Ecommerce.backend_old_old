@@ -45,7 +45,7 @@ namespace Ecommerce.Application.Functions.Adresses.Commands
             RuleFor(adr => adr.ZipCode)
                 .NotEmpty()
                 .NotNull().WithMessage("{PropertyName} is required.")
-                .Length(5).WithMessage("{PropertyName} length must be 9")
+                .Length(5).WithMessage("{PropertyName} length must be 5")
                 .Matches(new Regex(@"^\d{5}$")).WithMessage("{PropertyName}  not valid");
 
         }

@@ -7,5 +7,11 @@ namespace Ecommerce.Application.Functions.Taxes.Commands.CreateTax
     {
         public string Name { get; set; }
         public int Value { get; set; }
+
+        public CreateTaxCommand(string name, int value)
+        {
+            Name = name;
+            Value = value;
+        }
     }
 }

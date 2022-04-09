@@ -64,11 +64,6 @@ namespace Ecommerce.Persistence
                 .HasForeignKey(ur => ur.RoleId)
                 .IsRequired();
 
-            modelBuilder.Entity<Category>()
-                .HasOne(pc => pc.ParentCategory)
-                .WithMany(pc => pc.ChildCategories)
-                .HasForeignKey(pc => pc.ParentCategoryId);
-
             modelBuilder.Entity<Order>()
                 .HasOne(u => u.User)
                 .WithMany(or => or.Orders)

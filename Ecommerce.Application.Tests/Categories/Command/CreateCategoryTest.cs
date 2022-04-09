@@ -36,7 +36,7 @@ namespace Ecommerce.Application.Tests.Categories.Command
 
             var categoryCount = (await _mockCategoryRepository.Object.GetAllAsync()).Count;
 
-            var response = await handler.Handle(new CreateCategoryCommand() { Name = "Nowa", Description = "Kategoria z Testów"}, CancellationToken.None);
+            var response = await handler.Handle(new CreateCategoryCommand("Nowa", "Kategoria z Testów"), CancellationToken.None);
 
             var allCategories = await _mockCategoryRepository.Object.GetAllAsync();
 

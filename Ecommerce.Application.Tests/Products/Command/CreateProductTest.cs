@@ -36,7 +36,7 @@ namespace Ecommerce.Application.Tests.Products.Command
 
             var productCount = (await _mockProductRepository.Object.GetAllAsync()).Count;
 
-            var response = await handler.Handle(new CreateProductCommand() { Name = "Nowy", BrandId = 1, CategoryId = 1, Description = "Opis", TaxId = 1 }, CancellationToken.None);
+            var response = await handler.Handle(new CreateProductCommand("Nowy", 1, "Opis", 1, 1), CancellationToken.None);
 
             var allProducts = await _mockProductRepository.Object.GetAllAsync();
 

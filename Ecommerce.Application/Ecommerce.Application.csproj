@@ -13,6 +13,7 @@
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.6" />
     <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,9 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Functions\Carts\Commands\AddProductToCart\" />
     <Folder Include="Functions\Carts\Queries\" />
-    <Folder Include="Functions\Users\Queries\LoginUser\" />
   </ItemGroup>
 
 </Project>

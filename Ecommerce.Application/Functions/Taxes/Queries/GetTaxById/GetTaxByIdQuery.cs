@@ -11,5 +11,10 @@ namespace Ecommerce.Application.Functions.Taxes.Queries.GetTaxById
     public class GetTaxByIdQuery : IRequest<TaxBaseDto>
     {
         public int Id { get; set; }
+
+        public GetTaxByIdQuery(int id)
+        {
+            Id = id;
+        }
     }
 }

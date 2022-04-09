@@ -148,6 +148,9 @@ namespace Ecommerce.Persistence.Data.Migrations
                     b.Property<int>("ProductVariantId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -225,35 +228,6 @@ namespace Ecommerce.Persistence.Data.Migrations
                             Name = "Category 4",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
-                });
-
-            modelBuilder.Entity("Ecommerce.Domain.Entities.CategoryInCategory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ParentCategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SubcategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ParentCategoryId");
-
-                    b.HasIndex("SubcategoryId");
-
-                    b.ToTable("CategoryInCategory");
                 });
 
             modelBuilder.Entity("Ecommerce.Domain.Entities.Identity.Role", b =>
@@ -426,14 +400,14 @@ namespace Ecommerce.Persistence.Data.Migrations
                     b.Property<int>("ProductVariantId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.Property<int>("TaxValue")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("quantity")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -691,25 +665,6 @@ namespace Ecommerce.Persistence.Data.Migrations
                     b.Navigation("ProductVariant");
                 });
 
-            modelBuilder.Entity("Ecommerce.Domain.Entities.CategoryInCategory", b =>
-                {
-                    b.HasOne("Ecommerce.Domain.Entities.Category", "ParentCategory")
-                        .WithMany("CategoriesChilds")
-                        .HasForeignKey("ParentCategoryId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Ecommerce.Domain.Entities.Category", "Subcategory")
-                        .WithMany()
-                        .HasForeignKey("SubcategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ParentCategory");
-
-                    b.Navigation("Subcategory");
-                });
-
             modelBuilder.Entity("Ecommerce.Domain.Entities.Identity.UserRole", b =>
                 {
                     b.HasOne("Ecommerce.Domain.Entities.Identity.Role", "Role")
@@ -842,8 +797,6 @@ namespace Ecommerce.Persistence.Data.Migrations
 
             modelBuilder.Entity("Ecommerce.Domain.Entities.Category", b =>
                 {
-                    b.Navigation("CategoriesChilds");
-
                     b.Navigation("Products");
                 });
 

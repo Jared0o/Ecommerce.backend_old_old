@@ -1,6 +1,7 @@
 ﻿using Ecommerce.Application.Interfaces;
 using Ecommerce.Domain.Entities;
 using Ecommerce.Domain.Entities.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Persistence.Repositories
 {
@@ -10,14 +11,16 @@ namespace Ecommerce.Persistence.Repositories
         {
         }
 
-        public Task<IReadOnlyList<Adress>> GetUserAdressesAsync(User user)
+        public async Task<IReadOnlyList<Adress>> GetUserAdressesAsync(User user)
         {
-            throw new NotImplementedException();
+            var userAdresses = await _context.Adresses.Where(x=> x.UserId == user.Id).ToListAsync();
+            return userAdresses;
         }
 
-        public Task<Adress> GetUserAdresssByIdAsync(User user, int adressId)
+        public async Task<Adress> GetUserAdresssByIdAsync(User user, int adressId)
         {
-            throw new NotImplementedException();
+            var userAdress = await _context.Adresses.Where(x => x.UserId == user.Id).FirstOrDefaultAsync(x => x.Id == adressId);
+            return userAdress;
         }
     }
 }
