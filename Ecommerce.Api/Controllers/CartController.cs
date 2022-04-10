@@ -1,5 +1,7 @@
 ﻿using Ecommerce.Api.Models.Cart;
 using Ecommerce.Application.Functions.Carts.Commands.AddProductToCart;
+using Ecommerce.Application.Functions.Carts.Commands.DeleteAllProductsFromCart;
+using Ecommerce.Application.Functions.Carts.Commands.DeleteProductFromCart;
 using Ecommerce.Application.Functions.Carts.Queries.GetCartByUserEmail;
 using Ecommerce.Application.Functions.Carts.Responses;
 using MediatR;
@@ -40,6 +42,26 @@ namespace Ecommerce.Api.Controllers
             var response = await _mediator.Send(new AddProductToCartCommand(userEmail, body.ProductId, body.ProductVariantId, body.Quantity));
 
             return Ok(response);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> DeleteAllProductsFromCart()
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.Email);
+
+            var response = await _mediator.Send(new DeleteAllProductsFromCartCommand(userEmail));
+
+            return Ok();
+        }
+
+        [HttpDelete("{productCartId}")]
+        public async Task<ActionResult> DeleteProductFromCart([FromRoute]int productCartId)
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.Email);
+
+            var response = await _mediator.Send(new DeleteProductFromCartCommand(productCartId, userEmail));
+
+            return Ok();
         }
     }
 }

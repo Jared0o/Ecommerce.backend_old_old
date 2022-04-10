@@ -7,7 +7,9 @@ namespace Ecommerce.Persistence.Repositories
     {
         public CartProductsRepository(EcommerceContext context) : base(context)
         {
+            
         }
+        
 
     }
 }

@@ -44,6 +44,8 @@ namespace Ecommerce.Application.Mapper
             CreateMap<CreateBrandCommand, Brand>();
             CreateMap<UpdateBrandCommand, Brand>();
             CreateMap<Cart, CartBaseResponse>();
+            CreateMap<CartProducts, CartProductsBaseResponse>();
+            CreateMap<ProductVariant, ProductVariantBaseResponse>();
         }
     }
 }
