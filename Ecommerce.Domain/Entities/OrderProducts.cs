@@ -17,6 +17,14 @@ namespace Ecommerce.Domain.Entities
         {
 
         }
+
+        public OrderProducts(int productVariantId, float price, int taxValue, int quantity)
+        {
+            ProductVariantId = productVariantId;
+            Price = price;
+            TaxValue = taxValue;
+            Quantity = quantity;
+        }
         public OrderProducts(int orderId, Order order, int productVariantId, ProductVariant productVariant, float price, int taxValue, int quantity)
         {
             OrderId = orderId;

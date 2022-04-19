@@ -32,7 +32,7 @@ namespace Ecommerce.Application.Functions.Adresses.Queries.GetUserAdressById
             if (user == null)
                 throw new AuthenticationByEmailException($"Not find user with email: {request.UserEmail}");
 
-            var adress = await _adressRepository.GetUserAdresssByIdAsync(user, request.AdressId);
+            var adress = await _adressRepository.GetUserAdresssByIdAsync(user.Id, request.AdressId);
             if (adress == null)
                 throw new NotFindException($"Not find adress with id: {request.AdressId} for user: {request.UserEmail}");
 

@@ -41,6 +41,10 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
+app.UseCors(x => x.AllowAnyHeader()
+   .AllowAnyMethod()
+   .WithOrigins("http://localhost:4200"));
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

@@ -9,6 +9,7 @@ using Ecommerce.Application.Functions.Carts.Responses;
 using Ecommerce.Application.Functions.Categories.Commands.CreateCategory;
 using Ecommerce.Application.Functions.Categories.Commands.UpdateCategory;
 using Ecommerce.Application.Functions.Categories.Responses;
+using Ecommerce.Application.Functions.Orders.Responses;
 using Ecommerce.Application.Functions.Products.Commands;
 using Ecommerce.Application.Functions.Products.Commands.UpdateProduct;
 using Ecommerce.Application.Functions.Products.Responses;
@@ -46,6 +47,7 @@ namespace Ecommerce.Application.Mapper
             CreateMap<Cart, CartBaseResponse>();
             CreateMap<CartProducts, CartProductsBaseResponse>();
             CreateMap<ProductVariant, ProductVariantBaseResponse>();
+            CreateMap<Order, OrderBaseResponse>();
         }
     }
 }

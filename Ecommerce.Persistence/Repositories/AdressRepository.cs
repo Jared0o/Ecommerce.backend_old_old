@@ -17,9 +17,9 @@ namespace Ecommerce.Persistence.Repositories
             return userAdresses;
         }
 
-        public async Task<Adress> GetUserAdresssByIdAsync(User user, int adressId)
+        public async Task<Adress> GetUserAdresssByIdAsync(int userId, int adressId)
         {
-            var userAdress = await _context.Adresses.Where(x => x.UserId == user.Id).FirstOrDefaultAsync(x => x.Id == adressId);
+            var userAdress = await _context.Adresses.Where(x => x.UserId == userId).FirstOrDefaultAsync(x => x.Id == adressId);
             return userAdress;
         }
     }

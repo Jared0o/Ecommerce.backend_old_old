@@ -28,7 +28,7 @@ namespace Ecommerce.Persistence.Repositories
 
         public async Task<IReadOnlyList<T>> GetAllAsync()
         {
-            return await _context.Set<T>().ToListAsync();
+            return await _context.Set<T>().AsNoTracking().ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(int id)
